@@ -1,0 +1,89 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: rebeccapurple;
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+nav{
+    background-color: rebeccapurple;
+    padding: 0;
+    margin: 0;
+}
+main{
+    margin: 0;
+    padding: 0;
+    align-content: center;
+    align-items: center;
+}
+#map{
+    height: 1000px;
+    background-repeat: no-repeat;
+    padding: 0;
+    align-content: center;
+    align-items: center;
+    background-image: url('Nadbystrzycka.png');
+}
+#map-container {
+    position: relative;
+    width: 1000px;
+    height: 1000px;
+}
+#map {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.marker {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    left: 0;
+}
+#ds1 {
+    position: absolute;
+    top: 202px;
+    left: 193px;
+    width: 10px;
+    height: 10px;
+}
+#ds2 {
+    position: absolute;
+    top: 228px;
+    left: 107px;
+}
+#ds3 {
+    position: absolute;
+    top: 320px;
+    left: 93px;
+}
+#ds4 {
+    position: absolute;
+    top: 365px;
+    left: 169px;
+}
+#weii {
+    position: absolute;
+    top: 170px;
+    left: 760px;
+}
+.kwadrat {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #ff0000;
+    line-height: 10px;
+}
+.kwadrat:hover {
+    background-color: #dd0000;
+}
+h6 {
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+}

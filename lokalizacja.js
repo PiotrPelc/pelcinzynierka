@@ -3,7 +3,6 @@ document.getElementById('locate-button').addEventListener('click', function() {
         navigator.geolocation.getCurrentPosition(function (position) {
             var latitude = position.coords.latitude;
             var longitude = position.coords.longitude;
-            document.write(longitude, latitude)
             var mapContainer = document.getElementById('map-container');
             var mapImage = document.getElementById('map');
             var marker = document.createElement('img');

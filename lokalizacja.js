@@ -6,14 +6,12 @@ document.getElementById('locate-button').addEventListener('click', function() {
             var mapContainer = document.getElementById('map-container');
             var mapImage = document.getElementById('map');
             var marker = document.createElement('img');
-            if(longitude>22.544440 && longitude<22.553962 && latitude>51.232131 && latitude<51.238316) {
+            if(longitude>22.544977 && longitude<22.553737 && latitude>51.232881 && latitude<51.237633) {
             marker.src = 'lokalizacja.png'
             marker.classList.add('marker');
             marker.style.position = 'absolute';
-            marker.style.left = 500 + 'px';
-            //(longitude) * mapImage.width + 'px';
-            marker.style.top = 500 + 'px';
-            //(latitude) * mapImage.height + 'px';
+            marker.style.left = (longitude-22.544977) * mapImage.width * 114 + 'px';
+            marker.style.top = (latitude-51.232881) * mapImage.height * 210 + 'px';
             mapContainer.appendChild(marker);
             }
         }, function(error) {

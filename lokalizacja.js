@@ -11,7 +11,7 @@ document.getElementById('locate-button').addEventListener('click', function() {
             marker.classList.add('marker');
             marker.style.position = 'absolute';
             marker.style.left = (longitude-22.544977) * mapImage.width * 114 + 'px';
-            marker.style.top = (latitude-51.232881) * mapImage.height * 210 + 'px';
+            marker.style.top = (51.237995-latitude) * mapImage.height * 186 + 'px';
             mapContainer.appendChild(marker);
             }
         }, function(error) {

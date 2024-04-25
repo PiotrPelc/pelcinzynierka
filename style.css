@@ -47,40 +47,38 @@ main{
 }
 #ds1 {
     position: absolute;
-    top: 202px;
-    left: 193px;
-    width: 10px;
-    height: 10px;
+    top: 460px;
+    left: 155px;
 }
 #ds2 {
     position: absolute;
-    top: 228px;
-    left: 107px;
+    top: 520px;
+    left: 115px;
 }
 #ds3 {
     position: absolute;
-    top: 320px;
-    left: 93px;
+    top: 585px;
+    left: 157px;
 }
 #ds4 {
     position: absolute;
-    top: 365px;
-    left: 169px;
+    top: 573px;
+    left: 223px;
 }
 #weii {
     position: absolute;
-    top: 170px;
-    left: 760px;
+    top: 150px;
+    left: 480px;
 }
 .kwadrat {
     display: inline-block;
     width: 10px;
     height: 10px;
-    background-color: #ff0000;
+    background-color: #00ff00;
     line-height: 10px;
 }
 .kwadrat:hover {
-    background-color: #dd0000;
+    background-color: #00bb00;
 }
 h6 {
     font-size: 10px;
